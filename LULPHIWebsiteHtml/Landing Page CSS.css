@@ -1,0 +1,176 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#phiLogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    height: auto;
+}
+
+#headingLUL {
+    text-align: center;
+    color: rgb(101, 56, 25);
+    font-family: stella;
+}
+
+#headingPHI {
+    text-align: center;
+    color: rgb(204, 0, 0);
+}
+
+#main-nav {
+    background-color: rgb(234, 170, 0);
+    color: rgb(101, 56, 25);
+    text-align: center;
+}
+
+#main-nav li {
+    display: inline-block;
+    position: relative;
+    color: rgb(101, 56, 25);
+    padding: 10px;
+}
+
+#main-nav li:hover {
+    cursor: pointer;
+    color: rgb(204, 0, 0);
+}
+
+#main-nav ul ul {
+    display: none;
+    position: absolute;
+}
+
+#main-nav li:hover ul {
+    display: block;
+    position: absolute;
+    float: left;
+    padding: 0;
+    background-color: white; 
+    
+    
+}
+#main-nav li li:hover {
+    background-color: rgb(234, 170, 0);
+    padding: 10px 35px 10px 35px;
+    transition: 1s;
+}
+#main-nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+    transition: .5s;
+}
+
+#main-nav li a {
+    text-decoration: none;
+    color: rgb(101, 56, 25)
+}
+
+
+.lettersArea {
+    background-color: rgb(234, 170, 0);
+    color: rgb(101, 56, 25);
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+
+.lettersArea p {
+    display: none;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lettersArea:hover p {
+    display: block;
+    transition: 8s;
+}
+
+.lettersArea:hover h1 {
+    display: none;
+    
+}
+
+.pillarsAreaParent {
+    width: 100%;
+}
+
+.pillarsAreaChild {
+    float: left;
+    width: 25%;
+    text-align: center;
+    font-size: small;
+    color: white;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.pillarsAreaChild p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    font-size: medium;
+}
+
+.Gold {
+    background-color: rgb(234, 170, 0);
+    height: 70%;
+}
+
+.Brown {
+    height: 100px;
+    background-color: rgb(101, 56, 25);
+    height: 70%;
+}
+
+#brotherhood {
+    color: rgb(101, 56, 25);
+}
+
+.White {
+    height: 100px;
+    background-color: white;
+    height: 70%;
+}
+
+.Red {
+    height: 100px;
+    background-color: rgb(204, 0, 0);
+    height: 70%;
+}
+
+#footer {
+    text-align: center;
+    font-size: x-large;
+    background-color: rgb(234, 170, 0);
+    color: rgb(101, 56, 25);
+    /* margin-top: 30.5%; */
+    clear: both;
+    padding: .5%;
+}
+
+#Pic {
+    margin-top: 30%;
+    width: 30%;
+    height: auto;
+    mix-blend-mode: color;
+    color: rgb(101, 56, 25);
+}
+
+/* this kind of worked, I need how to make it releative to the bottom */
+.readMore {
+    position: relative;
+    bottom: 0;
+}
+
+@font-face {
+    font-family: Stellar;
+    src: url();
+}

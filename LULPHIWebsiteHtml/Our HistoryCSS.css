@@ -1,0 +1,19 @@
+.mainArea{
+    color: rgb(101, 56, 25);
+    margin: 0 10% 0 10%;
+}
+.mainArea p, .mainArea li {
+    font-size: x-large;
+}
+.mainArea h1 {
+    font-size: 40px;
+}
+.academicsContentArea{
+    font-size: x-large;
+    color: rgb(101, 56, 25);
+    margin: 0 25% 0 25%;
+}
+
+.mainArea h2 {
+    color: rgb(234, 170, 0);
+}
